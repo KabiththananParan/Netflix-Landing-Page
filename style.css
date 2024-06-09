@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 47, 47);
+}
+
+/* Header Section */
+
+.header {
+    width: 700px;
+    height: 500px;
+}
+
+.header-img img {
+    width: 100%;
+    height: 500px;
+    filter: brightness(40%);
+    position: relative;
+}
+
+.header-container {
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+}
+
+.header-container_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} 
+
+.header-container_nav-img {
+    width: 100px;
+}
+
+.header-container_nav-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 70px;
+}
+
+.header_dis {
+    text-align: center;
+    color: white;
+}
+
+.header_dis h1 {
+    font-weight: bolder;
+}
+
+.header_dis--con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header_dis-input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.header_dis-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+}
+
+/*Details-1*/
+
+.details-1 {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.details-1 h1, h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.details-1 img {
+    width: 300px;
+}
+
+/*Details-2*/
+
+.details-2 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.details-2 h1, h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.details-2 img {
+    width: 400px;
+    height: 300px;
+}
+
+/*Details-3*/
+
+.details-3 {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/*Details-4*/
+
+.details-4 {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.details-4 h1, h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.details-4 img {
+    width: 400px;
+    height: 300px;
+}
+
+/*Questions*/
+
